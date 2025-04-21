@@ -1,0 +1,22 @@
+import threading
+
+import time
+
+def print_number():
+    for i in range(5):
+        time.sleep(1)
+        print(i)
+
+def print_word():
+    for letter in 'abcde':
+        time.sleep(1.5)
+        print(letter)
+
+thread1=threading.Thread(target=print_number())
+thread2=threading.Thread(target=print_word())
+
+thread1.start()
+thread2.start()
+
+thread1.join()
+thread2.join()
