@@ -1,0 +1,21 @@
+{
+  "name": "Nitin",
+  "age": "24",
+  "lastName": "Chaudhary",
+  "adddres": {
+    "streetAdres": "l-137 Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021"
+  },
+  "Phone Number": [
+    {
+      "Landline": "80768962675",
+      "Mobile": "9821295572"
+    },
+    {
+      "type": "fax",
+      "number": "646-777-765"
+    }
+  ]
+}
